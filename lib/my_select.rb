@@ -9,5 +9,5 @@ def my_select(collection)
 end
 
 my_select([1, 2, 3, 4, 5]) do |num|
-  if num.even?
+  num.even?
 end
