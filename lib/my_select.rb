@@ -10,6 +10,4 @@ end
 
 my_select([1, 2, 3, 4, 5]) do |num|
   if num.even?
-    return num
-  end
 end
